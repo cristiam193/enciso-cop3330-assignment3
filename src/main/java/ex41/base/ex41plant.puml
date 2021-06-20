@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class List {
+    +sortList()
+    +outputList()
+}
+
+class App {
+    -counter
+    +getInput()
+
+}
+
+App o-> List
+
+@enduml
