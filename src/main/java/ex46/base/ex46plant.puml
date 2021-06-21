@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+class App {
+    main()
+}
+class ReadFile {
+    -Array<String> list
+    -Scanner in
+    +readFile()
+    +readFromFile()
+    +getList()
+    +wordFrequency()
+}
+App o-> ReadFile
+
+@enduml

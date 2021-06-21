@@ -1,5 +1,11 @@
 package ex45.base;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 3 Solution
+ *  Copyright 2021 Cristiam Enciso
+ */
+
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
